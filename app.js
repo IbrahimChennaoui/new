@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
-
+ //new commit
 // 1) GLOBAL MIDDLEWARES
 // Serving static files
 app.use(express.static(path.join(__dirname, 'public')));
